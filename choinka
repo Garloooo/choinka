@@ -1,0 +1,37 @@
+<pre>
+<?php
+
+$wys = 10;
+
+for ($i = 1; $i <= $wys; $i++) {
+    for ($j = 1; $j <= $wys * 4 - $i; $j++) {
+        echo ' ';
+    }
+    for ($j = 1; $j <= 2 * $i - 1; $j++) {
+        echo 'x';
+    }    
+    echo "</br>";
+}
+for ($i = $wys / 1.5; $i <= $wys * 1.5; $i++) {
+    for ($j = 1; $j <= $wys * 4 - $i; $j++) {
+        echo ' ';
+    }
+    for ($j = 1; $j <= 2 * $i - 1; $j++) {
+        echo 'x';
+    }    
+    echo "</br>";
+}
+for ($i = $wys; $i <= $wys * 2; $i++) {
+    for ($j = 1; $j <= $wys * 4 - $i; $j++) {
+        echo ' ';
+    }
+    for ($j = 1; $j <= 2 * $i - 1; $j++) {
+        echo 'x';
+    }    
+    echo "</br>";
+}
+
+
+
+?>
+</pre>
